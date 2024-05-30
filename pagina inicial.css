@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.hiperlink {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: initial;
+    justify-content: space-around;
+    margin-right: 150px;
+
+}
+
+.cabeçalho {
+    margin-left: 425px;
+    margin-top: 253px;
+
+}
+
+ .titulob{
+    margin-top: 110px;
+    font-size: x-large;
+    margin-left: 150px;
+    color: white;
+    border: 150px;
+}
+
+.input{
+    display: flex;
+    justify-content: end;
+    margin-right: 165px;
+    margin-bottom: 165px;
+}
