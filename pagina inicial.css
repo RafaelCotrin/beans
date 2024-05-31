@@ -9,10 +9,8 @@ body {
 
 .hiperlink {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: initial;
-    justify-content: space-around;
-    margin-right: 150px;
+    margin: 125px;
+    align-items: center ;
 
 }
 
@@ -35,4 +33,9 @@ body {
     justify-content: end;
     margin-right: 165px;
     margin-bottom: 165px;
+}
+
+.findebutton{
+   display: flex;
+   justify-content: end;
 }
