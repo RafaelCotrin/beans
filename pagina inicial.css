@@ -7,17 +7,25 @@ body {
     background-color: blueviolet;
 }
 
-.hiperlink {
+.hiperlink{
     display: flex;
     margin: 125px;
     align-items: center ;
-
+    color: white;
+    justify-content: space-evenly;
 }
 
-.cabeçalho {
+.cabeçalho{
     margin-left: 425px;
     margin-top: 253px;
 
+}
+
+.container{
+    display:flex;
+    background-color: blue;
+    height: 125px;
+    width: 1900px;
 }
 
  .titulob{
