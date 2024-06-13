@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pagina inicial.css">
-    <title>Beans Pagina Inicial</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="pagina inicial.css">
+<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+<title>Beans Pagina Inicial</title>
+
 <body>
     <div class="hiperlink">
         <a href="random.html">Random</a>
@@ -34,6 +37,16 @@
         <img src="img/Rectangle 4.png">
         <img src="img/Rectangle 5.png">
     </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+        $('.carrosel').slick({
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2
+        });
+    </script>
 </body>
 
 </html>

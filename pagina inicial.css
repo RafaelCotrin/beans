@@ -50,15 +50,6 @@ body {
 
 }
 
-
-.carrosel{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    justify-content: space-around;
-    margin-bottom: 400px;
-}
-
 header{
     
     margin-right: 110px;

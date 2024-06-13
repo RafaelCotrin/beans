@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.lateral {
+   background-color: #ba4d95;
+   height: 1024px;
+   width: 332px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.lateral text {
+    display: flex;
+    margin-left: 26px; 
+}
+
+h1{
+    margin-left: 332px;
+    color: white;
+    background-color: black;
+    width: 334px;
+    margin-top: 19px;
+}
+
+.search{
+    display: flex;
+    margin-left: 884px;
+    margin-right: 248px;
+}
+
+body{
+    background-color: #864896;
+}
+
+.content{
+    display: grid;
+    display: flex;
+}
