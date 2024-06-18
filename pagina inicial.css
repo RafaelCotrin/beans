@@ -15,6 +15,7 @@ body {
     justify-content: space-between;
     font-size: x-large;
     height: 200px;
+
 }
 
 .hiperlink a{
@@ -23,7 +24,7 @@ body {
   margin-top: 55px;
   margin-left: 70px;
   margin-right: 200px;
-
+  text-decoration: none;
 }
 
 .cabeçalho{
