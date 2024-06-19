@@ -2,15 +2,26 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+
 }
 
 .sidebar {
     background-color: #ba4d95;
+    min-width: 332px;
+    max-width: 332px;
     height: 1024px;
-    width: 332px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    float: left;
+    margin-bottom: 31px;
+    margin-top:0%;
+    padding-left: 60px;
+    padding-top: 12px;
 }
 
 
@@ -26,6 +37,8 @@ h1 {
     display: flex;
     margin-left: 884px;
     margin-right: 248px;
+    float: right;
+    border-radius: 30px;
 }
 
 body {
@@ -34,10 +47,12 @@ body {
 
 .article{
     display: flex;
-    grid-template-columns: 3fr;
-    grid-template-rows: 2fr;
-    max-width: 226px;
-    min-width: 226px;
-    row-gap: 108px;
+    align-items: center;
+    justify-content: center;
     column-gap: 97px;
-    }
+    row-gap: 108px;
+    float: right;
+    margin-right: 126px;
+ }
+
+ 
