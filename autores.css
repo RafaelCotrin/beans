@@ -10,23 +10,24 @@
     background-color: #ba4d95;
     min-width: 332px;
     max-width: 332px;
-    height: 1024px;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
     float: left;
     margin-bottom: 31px;
     margin-top:0%;
     padding-left: 60px;
     padding-top: 12px;
+    color:black;
+    text-decoration: none;
 }
 
 
-h1 {
-    margin-left: 332px;
+.sidebar h1{
+    margin-left: 260px;
     color: white;
     background-color: black;
     width: 334px;
@@ -46,13 +47,25 @@ body {
 }
 
 .article{
+   
     display: flex;
     align-items: center;
-    justify-content: center;
-    column-gap: 97px;
-    row-gap: 108px;
-    float: right;
-    margin-right: 126px;
+    column-gap: 108px;
+    margin-left: 421px;
+    padding-top: 183px;
  }
+
+
+ .article1{
+
+   display: flex;
+   align-items: center;
+   margin-left: 421px;
+   column-gap: 108px;
+   padding-top: 613px;
+   
+
+ }
+ 
 
  

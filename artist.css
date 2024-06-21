@@ -6,6 +6,12 @@
 
 body{
     background-color: #ba4d95;
+    background-image: url('img/plano-de-fundo.jpeg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 10;
+
 }
 
 h1{
@@ -20,3 +26,10 @@ h1{
     margin-left: 26px;
     margin-top: 19px;
 }
+
+img{
+    display: flex;
+    align-items: end;
+    float: right;
+}
+
